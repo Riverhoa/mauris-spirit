@@ -1,0 +1,305 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+body {
+  font-family: 'OpenSans', sans-serif;
+}
+hr.short {
+  height: 4px;
+  background-color: darkorange;
+  width: 5%;
+}
+hr.long {
+  height: 4px;
+  background-color: darkorange;
+  width: 8%;
+}
+hr.small {
+  height: 4px;
+  background-color: darkorange;
+  width: 24%;
+  margin-left: 0px;
+}
+img.img-responsive {
+  display: block;
+  margin: auto;
+}
+header {
+  background-color: black;
+}
+header img {
+  padding-bottom: 90px;
+}
+header b {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+header .nav {
+  margin-top: 40px;
+}
+header .nav a {
+  text-decoration: none;
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  padding: 0px 10px;
+}
+header .nav a:hover {
+  border-bottom: 4px solid darkorange;
+}
+header .slogan {
+  font-family: 'OpenSans', sans-serif;
+  color: grey;
+  padding-top: 193px;
+  padding-bottom: 297px;
+  text-align: center;
+}
+header .slogan .orange {
+  color: orange;
+  font-weight: bold;
+}
+header .slogan h1 {
+  font-size: 44px;
+  font-weight: lighter;
+}
+header .slogan p {
+  font-size: 20px;
+  color: white;
+}
+h1.title {
+  text-align: center;
+  font-size: 44px;
+}
+/*about*/
+.about {
+  padding-top: 100px;
+}
+.about h2 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.about h1 {
+  font-size: 34px;
+}
+.about p {
+  font-size: 18px;
+}
+.about i {
+  font-size: 20px -3px;
+}
+.about .bag {
+  border: 1px solid darkgrey;
+  padding: 15px;
+  cursor: pointer;
+}
+/*team*/
+.team {
+  background-color: black;
+  padding-top: 100px;
+  color: white;
+}
+.team li {
+  border-radius: 0px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.team li.active {
+  border-radius: 0px;
+  border: none;
+  background-color: darkorange;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.team .col-sm-3 {
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 180px;
+}
+.team .col-sm-3 b {
+  font-size: 18px;
+}
+.team .col-sm-3 span {
+  font-size: 17px;
+}
+/*services*/
+.service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service .col-sm-3 {
+  padding-top: 80px;
+  text-align: center;
+}
+.service .col-sm-3 b {
+  font-size: 25px;
+}
+.service .col-sm-3 .round {
+  border: 5px solid darkorange;
+  border-radius: 50%;
+  padding: 32px;
+  margin: auto;
+  width: 50%;
+}
+.service p.italic {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 35px;
+}
+.italic {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
+/*clients*/
+.client {
+  background-color: black;
+  padding-top: 100px;
+  color: white;
+}
+.client li {
+  border-radius: 0px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.client li.active {
+  border-radius: 0px;
+  border: none;
+  background-color: darkorange;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.client .col-sm-2 {
+  padding-bottom: 180px;
+  padding-top: 100px;
+}
+/*works*/
+.work {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.work p.top {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.work .middle {
+  padding: 28px 0px;
+}
+.work .col-sm-3 {
+  position: relative;
+}
+.work .col-sm-3 .over {
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10;
+  right: 10;
+  height: 100%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+  padding: 0px 10px;
+}
+.work .col-sm-3:hover .over {
+  opacity: 1;
+}
+.work .filter-button-group {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.work .filter-button-group button {
+  background-color: white;
+  border: none;
+  float: right;
+}
+.work .filter-button-group button:visited {
+  font-weight: bold;
+}
+/*testimonial*/
+.testimonial {
+  background-color: black;
+  padding-top: 100px;
+  color: white;
+}
+.testimonial li {
+  border-radius: 0px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.testimonial li.active {
+  border-radius: 0px;
+  border: none;
+  background-color: darkorange;
+  margin-right: 10px;
+  margin-bottom: 65px;
+}
+.testimonial .container {
+  font-size: 18px;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  margin-bottom: 180px;
+}
+/*contact*/
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact .row {
+  max-width: 780px;
+  margin: auto;
+  padding-top: 45px;
+}
+.contact input,
+.contact textarea {
+  border-radius: 0px;
+}
+.contact .col-sm-6 {
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+.contact button {
+  border-radius: 0px;
+  float: right;
+  width: 20%;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.contact span {
+  color: red;
+}
+/*footer*/
+footer {
+  background-color: black;
+}
+footer .container {
+  padding: 20px;
+}
+footer .container a {
+  float: right;
+  margin-left: 10px;
+}
+footer .container a,
+footer .container p {
+  display: inline;
+}
+footer .container p {
+  font-size: 12px;
+  color: white;
+}
